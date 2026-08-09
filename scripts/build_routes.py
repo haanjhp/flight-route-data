@@ -2,7 +2,7 @@
 import argparse, csv, datetime as dt, hashlib, json, pathlib, re, sqlite3
 from collections import defaultdict
 
-SCHEMA = 1
+SCHEMA = 2
 
 def clean(value):
     return re.sub(r"[^A-Z0-9]", "", (value or "").upper())
@@ -19,10 +19,13 @@ def load_airlines(path):
     result = {}
     for row in read_csv(path):
         icao, iata = clean(first(row, "ICAO", "Code")), clean(first(row, "IATA"))
+        name = first(row, "Name").strip()
         if len(icao) == 3:
-            result[icao] = (icao, iata)
+            result[icao] = (icao, iata, name)
         if len(iata) == 2:
-            result[iata] = (icao, iata)
+            # The standing data contains a few reused historical IATA codes.
+            # Keep the first active mapping instead of letting a later alias replace it.
+            result.setdefault(iata, (icao, iata, name))
     return result
 
 def load_airports(path):
@@ -42,23 +45,23 @@ def parse_public(path, airlines, airports):
         route = first(row, "AirportCodes", "Route")
         points = [clean(p) for p in re.split(r"[- /,]+", route) if clean(p)]
         if len(points) < 2 or not number.isdigit(): continue
-        airline_icao, airline_iata = airlines.get(carrier, (carrier if len(carrier) == 3 else "", carrier if len(carrier) == 2 else ""))
+        airline_icao, airline_iata, airline_name = airlines.get(carrier, (carrier if len(carrier) == 3 else "", carrier if len(carrier) == 2 else "", carrier))
         callsign_icao = f"{airline_icao}{number}" if airline_icao else callsign
         route_icao = f"{points[0]}-{points[-1]}"
         route_iata = f"{airports.get(points[0], points[0])}-{airports.get(points[-1], points[-1])}"
-        yield (callsign_icao, airline_icao, airline_iata, number, int(number), route_iata, route_icao, "public", 10, 0, "")
+        yield (callsign_icao, airline_icao, airline_iata, airline_name, number, int(number), route_iata, route_icao, "public", 10, 0, "")
 
 def parse_users(path, airlines):
     if not path.exists(): return
     for row in json.loads(path.read_text(encoding="utf-8")):
         flight = clean(row.get("flightNumber")); number = "".join(re.findall(r"\d+", flight))
         prefix = flight[:-len(number)] if number else ""
-        airline_icao, airline_iata = airlines.get(prefix, (prefix if len(prefix) == 3 else "", prefix if len(prefix) == 2 else ""))
+        airline_icao, airline_iata, airline_name = airlines.get(prefix, (prefix if len(prefix) == 3 else "", prefix if len(prefix) == 2 else "", prefix))
         if not number or not airline_icao: continue
         departure, arrival = clean(row.get("from")), clean(row.get("to"))
         if not departure or not arrival: continue
         route = f"{departure}-{arrival}"
-        yield (f"{airline_icao}{number}", airline_icao, airline_iata, number, int(number), route, route, "user_roster", 100, int(row.get("observationCount", 1)), row.get("lastSeenMonth", ""))
+        yield (f"{airline_icao}{number}", airline_icao, airline_iata, airline_name, number, int(number), route, route, "user_roster", 100, int(row.get("observationCount", 1)), row.get("lastSeenMonth", ""))
 
 def main():
     parser = argparse.ArgumentParser()
@@ -72,17 +75,18 @@ def main():
     airlines, airports = load_airlines(args.airlines), load_airports(args.airports)
     merged = {}
     for record in list(parse_public(args.routes, airlines, airports)) + list(parse_users(args.users, airlines) or []):
-        key = (record[0], record[6], record[7]); previous = merged.get(key)
-        if not previous or record[8:] > previous[8:]: merged[key] = record
+        key = (record[0], record[7], record[8]); previous = merged.get(key)
+        if not previous or record[9:] > previous[9:]: merged[key] = record
     records = sorted(merged.values())
     normalized = "\n".join("|".join(map(str, row)) for row in records).encode()
     data_version = hashlib.sha256(normalized).hexdigest()[:16]
     db_path = args.output / "routes.sqlite"; db_path.unlink(missing_ok=True)
     db = sqlite3.connect(db_path)
-    db.execute("CREATE TABLE routes(callsign_icao TEXT, airline_icao TEXT, airline_iata TEXT, flight_number TEXT, number_key INTEGER, route_iata TEXT, route_icao TEXT, source TEXT, source_rank INTEGER, observation_count INTEGER, last_seen_month TEXT)")
-    db.executemany("INSERT INTO routes VALUES(?,?,?,?,?,?,?,?,?,?,?)", records)
+    db.execute("CREATE TABLE routes(callsign_icao TEXT, airline_icao TEXT, airline_iata TEXT, airline_name TEXT, flight_number TEXT, number_key INTEGER, route_iata TEXT, route_icao TEXT, source TEXT, source_rank INTEGER, observation_count INTEGER, last_seen_month TEXT)")
+    db.executemany("INSERT INTO routes VALUES(?,?,?,?,?,?,?,?,?,?,?,?)", records)
     db.execute("CREATE INDEX routes_number ON routes(number_key, source_rank DESC, observation_count DESC)")
-    db.execute("CREATE INDEX routes_callsign ON routes(callsign_icao)"); db.commit(); db.execute("VACUUM"); db.close()
+    db.execute("CREATE INDEX routes_callsign ON routes(callsign_icao)")
+    db.execute(f"PRAGMA user_version = {SCHEMA}"); db.commit(); db.execute("VACUUM"); db.close()
     digest = hashlib.sha256(db_path.read_bytes()).hexdigest()
     old_meta_path = args.output / "meta.json"
     old_meta = json.loads(old_meta_path.read_text()) if old_meta_path.exists() else {}
