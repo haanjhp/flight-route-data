@@ -2,11 +2,13 @@
 import collections, datetime as dt, json, os, pathlib
 import firebase_admin
 from firebase_admin import credentials, firestore
+from google.cloud.firestore_v1.base_query import FieldFilter
 
 def main():
     firebase_admin.initialize_app(credentials.Certificate(json.loads(os.environ["FIREBASE_SERVICE_ACCOUNT"])))
     cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=31); counts = collections.Counter(); latest = {}
-    for snapshot in firestore.client().collection_group("roster").where("date", ">=", cutoff).stream():
+    query = firestore.client().collection_group("roster").where(filter=FieldFilter("date", ">=", cutoff))
+    for snapshot in query.stream():
         month = snapshot.get("date").strftime("%Y-%m") if snapshot.get("date") else ""
         for leg in snapshot.get("flightLegs") or []:
             key = (str(leg.get("flightNumber", "")).upper(), str(leg.get("from", "")).upper(), str(leg.get("to", "")).upper())
