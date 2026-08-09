@@ -1,0 +1,28 @@
+name: Aggregate anonymous user routes
+on:
+  schedule:
+    - cron: "41 4 1 * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python scripts/aggregate_firestore.py
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+      - run: python scripts/fetch_public.py --force
+      - run: python scripts/build_routes.py --routes cache/public/routes.csv --airports cache/public/airports.csv --airlines cache/public/airlines.csv
+      - name: Publish only changed data
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add cache/source_meta.json data/user_routes.json dist/routes.sqlite dist/meta.json
+          git diff --cached --quiet || (git commit -m "Update anonymous roster routes" && git push)
