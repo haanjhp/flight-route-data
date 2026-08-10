@@ -1,8 +1,8 @@
 {
   "routes.csv": {
     "url": "https://vrs-standing-data.adsb.lol/routes.csv",
-    "etag": "W/\"6a78024c-1203e4f\"",
-    "lastModified": "Sun, 09 Aug 2026 04:30:04 GMT"
+    "etag": "W/\"6a795922-1203dd7\"",
+    "lastModified": "Mon, 10 Aug 2026 04:52:50 GMT"
   },
   "airports.csv": {
     "url": "https://vrs-standing-data.adsb.lol/airports.csv",

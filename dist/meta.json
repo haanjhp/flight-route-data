@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "dataVersion": "aee53b9204e8361a",
-  "generatedAt": "2026-08-09T05:27:17.227646+00:00",
-  "sha256": "7be8fa1313466e87858849d1f163e26bc333a8f6b30dde4fcf17ab44e25ce80d",
+  "dataVersion": "b41962ccff9826f8",
+  "generatedAt": "2026-08-10T04:55:57.254566+00:00",
+  "sha256": "93a2d7e680c8545158cdb60e2298b6a32d03ddcfa266892d86fd0daa95340681",
   "byteSize": 39743488,
-  "recordCount": 385196,
+  "recordCount": 385215,
   "sqliteURL": "https://raw.githubusercontent.com/haanjhp/flight-route-data/main/dist/routes.sqlite"
 }
