@@ -9,8 +9,12 @@ def main():
     cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=31); counts = collections.Counter(); latest = {}
     query = firestore.client().collection_group("roster").where(filter=FieldFilter("date", ">=", cutoff))
     for snapshot in query.stream():
-        month = snapshot.get("date").strftime("%Y-%m") if snapshot.get("date") else ""
-        for leg in snapshot.get("flightLegs") or []:
+        document = snapshot.to_dict() or {}
+        date = document.get("date")
+        month = date.strftime("%Y-%m") if date else ""
+        for leg in document.get("flightLegs") or []:
+            if not isinstance(leg, dict):
+                continue
             key = (str(leg.get("flightNumber", "")).upper(), str(leg.get("from", "")).upper(), str(leg.get("to", "")).upper())
             if all(key): counts[key] += 1; latest[key] = max(latest.get(key, ""), month)
     rows = [{"flightNumber": key[0], "from": key[1], "to": key[2], "observationCount": count, "lastSeenMonth": latest[key]} for key, count in sorted(counts.items())]
