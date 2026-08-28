@@ -1,1 +1,3 @@
 firebase-admin==7.1.0
+# 2.35.0 was yanked after percent-encoding Firestore's (default) database ID.
+google-api-core==2.34.0
