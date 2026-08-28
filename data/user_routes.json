@@ -1,1 +1,4034 @@
-[]
+[
+  {
+    "flightNumber": "7C0050M",
+    "from": "ICN",
+    "to": "TNA",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C0061M",
+    "from": "ICN",
+    "to": "TNA",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C0101",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 53,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0102",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 41,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0103",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 48,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0104",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 44,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0105",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 44,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0106",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 54,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0107",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 53,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0108",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 71,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0109",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 57,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0110",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 58,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0111",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 30,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0112",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 31,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0113",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 44,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0114",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 49,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0115",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 53,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0116",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 53,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0117",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 67,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0118",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 44,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0119",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 66,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0120",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 52,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0121",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 31,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0122",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 67,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0123",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 55,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0124",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 30,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0125",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 43,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0126",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 43,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0127",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 46,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0128",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 45,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0129",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 45,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0130",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 57,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0131",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 55,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0132",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 59,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0133",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 42,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0134",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 43,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0135",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 43,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0136",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 46,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0137",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 51,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0138",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 60,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0139",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 47,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0140",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 50,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0141",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 59,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0142",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 48,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0151",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 49,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0152",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 49,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0153",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 44,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0154",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 44,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0155",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 56,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0156",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 37,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0157",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 37,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0158",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 56,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0166",
+    "from": "CJU",
+    "to": "ICN",
+    "observationCount": 19,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0167",
+    "from": "ICN",
+    "to": "CJU",
+    "observationCount": 19,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0185",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 35,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0186",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 36,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0190",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0211",
+    "from": "CJJ",
+    "to": "CJU",
+    "observationCount": 53,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0212",
+    "from": "CJU",
+    "to": "CJJ",
+    "observationCount": 53,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0213",
+    "from": "CJJ",
+    "to": "CJU",
+    "observationCount": 53,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0214",
+    "from": "CJU",
+    "to": "CJJ",
+    "observationCount": 53,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0225",
+    "from": "CJJ",
+    "to": "CJU",
+    "observationCount": 46,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0226",
+    "from": "CJU",
+    "to": "CJJ",
+    "observationCount": 46,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0227",
+    "from": "CJJ",
+    "to": "CJU",
+    "observationCount": 60,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0228",
+    "from": "CJU",
+    "to": "CJJ",
+    "observationCount": 60,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0301",
+    "from": "KWJ",
+    "to": "CJU",
+    "observationCount": 48,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0302",
+    "from": "CJU",
+    "to": "KWJ",
+    "observationCount": 48,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0304M",
+    "from": "ICN",
+    "to": "HIN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C0305",
+    "from": "KWJ",
+    "to": "CJU",
+    "observationCount": 91,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0305M",
+    "from": "HIN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0306",
+    "from": "CJU",
+    "to": "KWJ",
+    "observationCount": 91,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0318T",
+    "from": "GMP",
+    "to": "GMP",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C0501",
+    "from": "PUS",
+    "to": "CJU",
+    "observationCount": 58,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0501",
+    "from": "PUS",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C0502",
+    "from": "CJU",
+    "to": "PUS",
+    "observationCount": 14,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0503",
+    "from": "PUS",
+    "to": "CJU",
+    "observationCount": 59,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0504",
+    "from": "CJU",
+    "to": "PUS",
+    "observationCount": 63,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0505",
+    "from": "PUS",
+    "to": "CJU",
+    "observationCount": 63,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0506",
+    "from": "CJU",
+    "to": "PUS",
+    "observationCount": 53,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0507",
+    "from": "PUS",
+    "to": "CJU",
+    "observationCount": 91,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0508",
+    "from": "CJU",
+    "to": "PUS",
+    "observationCount": 63,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0509",
+    "from": "PUS",
+    "to": "CJU",
+    "observationCount": 62,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0509",
+    "from": "PUS",
+    "to": "PUS",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C0510",
+    "from": "CJU",
+    "to": "PUS",
+    "observationCount": 55,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0511",
+    "from": "PUS",
+    "to": "CJU",
+    "observationCount": 17,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0512",
+    "from": "CJU",
+    "to": "PUS",
+    "observationCount": 54,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0512",
+    "from": "CJU",
+    "to": "TAE",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C0512",
+    "from": "TAE",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C0513",
+    "from": "PUS",
+    "to": "CJU",
+    "observationCount": 55,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0514",
+    "from": "CJU",
+    "to": "PUS",
+    "observationCount": 91,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0702",
+    "from": "CJU",
+    "to": "TAE",
+    "observationCount": 67,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0705",
+    "from": "TAE",
+    "to": "CJU",
+    "observationCount": 57,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0706",
+    "from": "CJU",
+    "to": "TAE",
+    "observationCount": 55,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0711",
+    "from": "TAE",
+    "to": "CJU",
+    "observationCount": 67,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0765D",
+    "from": "ANC",
+    "to": "CTS",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-07"
+  },
+  {
+    "flightNumber": "7C0904",
+    "from": "PUS",
+    "to": "GMP",
+    "observationCount": 54,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C0907",
+    "from": "GMP",
+    "to": "PUS",
+    "observationCount": 40,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1101",
+    "from": "ICN",
+    "to": "NRT",
+    "observationCount": 51,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1102",
+    "from": "NRT",
+    "to": "ICN",
+    "observationCount": 51,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1103",
+    "from": "ICN",
+    "to": "NRT",
+    "observationCount": 57,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1104",
+    "from": "NRT",
+    "to": "ICN",
+    "observationCount": 57,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1105",
+    "from": "ICN",
+    "to": "NRT",
+    "observationCount": 66,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1106",
+    "from": "NRT",
+    "to": "ICN",
+    "observationCount": 66,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1107",
+    "from": "ICN",
+    "to": "NRT",
+    "observationCount": 53,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1108",
+    "from": "NRT",
+    "to": "ICN",
+    "observationCount": 53,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1109",
+    "from": "ICN",
+    "to": "NRT",
+    "observationCount": 49,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1110",
+    "from": "NRT",
+    "to": "ICN",
+    "observationCount": 50,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1151",
+    "from": "PUS",
+    "to": "NRT",
+    "observationCount": 85,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1152",
+    "from": "NRT",
+    "to": "PUS",
+    "observationCount": 85,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1153",
+    "from": "PUS",
+    "to": "NRT",
+    "observationCount": 74,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1154",
+    "from": "NRT",
+    "to": "PUS",
+    "observationCount": 74,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1171",
+    "from": "ICN",
+    "to": "NRT",
+    "observationCount": 52,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1172",
+    "from": "NRT",
+    "to": "ICN",
+    "observationCount": 52,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1175",
+    "from": "ICN",
+    "to": "NRT",
+    "observationCount": 56,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1176",
+    "from": "NRT",
+    "to": "ICN",
+    "observationCount": 56,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1181",
+    "from": "ICN",
+    "to": "NRT",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C1182",
+    "from": "NRT",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C1183",
+    "from": "ICN",
+    "to": "NRT",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C1184",
+    "from": "NRT",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C1201",
+    "from": "ICN",
+    "to": "NGO",
+    "observationCount": 64,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1202",
+    "from": "NGO",
+    "to": "ICN",
+    "observationCount": 64,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1203",
+    "from": "ICN",
+    "to": "NGO",
+    "observationCount": 61,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1204",
+    "from": "NGO",
+    "to": "ICN",
+    "observationCount": 61,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1281",
+    "from": "ICN",
+    "to": "NGO",
+    "observationCount": 22,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1282",
+    "from": "NGO",
+    "to": "ICN",
+    "observationCount": 22,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1301",
+    "from": "ICN",
+    "to": "KIX",
+    "observationCount": 58,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1302",
+    "from": "KIX",
+    "to": "ICN",
+    "observationCount": 58,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1303",
+    "from": "ICN",
+    "to": "KIX",
+    "observationCount": 44,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1304",
+    "from": "KIX",
+    "to": "ICN",
+    "observationCount": 44,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1305",
+    "from": "ICN",
+    "to": "KIX",
+    "observationCount": 41,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1306",
+    "from": "KIX",
+    "to": "ICN",
+    "observationCount": 41,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1307",
+    "from": "ICN",
+    "to": "KIX",
+    "observationCount": 50,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1308",
+    "from": "KIX",
+    "to": "ICN",
+    "observationCount": 50,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1325",
+    "from": "GMP",
+    "to": "KIX",
+    "observationCount": 58,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1326",
+    "from": "KIX",
+    "to": "GMP",
+    "observationCount": 58,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1327",
+    "from": "GMP",
+    "to": "KIX",
+    "observationCount": 58,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1328",
+    "from": "KIX",
+    "to": "GMP",
+    "observationCount": 61,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1351",
+    "from": "PUS",
+    "to": "KIX",
+    "observationCount": 88,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1352",
+    "from": "KIX",
+    "to": "PUS",
+    "observationCount": 88,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1353",
+    "from": "PUS",
+    "to": "KIX",
+    "observationCount": 75,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1354",
+    "from": "KIX",
+    "to": "PUS",
+    "observationCount": 75,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1371",
+    "from": "PUS",
+    "to": "KIX",
+    "observationCount": 5,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C1372",
+    "from": "KIX",
+    "to": "PUS",
+    "observationCount": 5,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C1391",
+    "from": "ICN",
+    "to": "KIX",
+    "observationCount": 54,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1392",
+    "from": "KIX",
+    "to": "ICN",
+    "observationCount": 54,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1393",
+    "from": "ICN",
+    "to": "KIX",
+    "observationCount": 46,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1394",
+    "from": "KIX",
+    "to": "ICN",
+    "observationCount": 46,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1395",
+    "from": "ICN",
+    "to": "KIX",
+    "observationCount": 61,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1396",
+    "from": "KIX",
+    "to": "ICN",
+    "observationCount": 59,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1401",
+    "from": "ICN",
+    "to": "FUK",
+    "observationCount": 50,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1402",
+    "from": "FUK",
+    "to": "ICN",
+    "observationCount": 50,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1403",
+    "from": "ICN",
+    "to": "FUK",
+    "observationCount": 76,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1404",
+    "from": "FUK",
+    "to": "ICN",
+    "observationCount": 76,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1405",
+    "from": "ICN",
+    "to": "FUK",
+    "observationCount": 57,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1406",
+    "from": "FUK",
+    "to": "ICN",
+    "observationCount": 57,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1407",
+    "from": "ICN",
+    "to": "FUK",
+    "observationCount": 43,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1408",
+    "from": "FUK",
+    "to": "ICN",
+    "observationCount": 43,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1431",
+    "from": "ICN",
+    "to": "FUK",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1432",
+    "from": "FUK",
+    "to": "ICN",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1433",
+    "from": "ICN",
+    "to": "FUK",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C1434",
+    "from": "FUK",
+    "to": "ICN",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C1451",
+    "from": "PUS",
+    "to": "FUK",
+    "observationCount": 95,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1452",
+    "from": "FUK",
+    "to": "PUS",
+    "observationCount": 95,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1453",
+    "from": "PUS",
+    "to": "FUK",
+    "observationCount": 71,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1454",
+    "from": "FUK",
+    "to": "PUS",
+    "observationCount": 71,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1471",
+    "from": "ICN",
+    "to": "FUK",
+    "observationCount": 53,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1472",
+    "from": "FUK",
+    "to": "ICN",
+    "observationCount": 53,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1501",
+    "from": "ICN",
+    "to": "CTS",
+    "observationCount": 49,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1502",
+    "from": "CTS",
+    "to": "ICN",
+    "observationCount": 49,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1503",
+    "from": "ICN",
+    "to": "CTS",
+    "observationCount": 38,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1504",
+    "from": "CTS",
+    "to": "ICN",
+    "observationCount": 38,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1551",
+    "from": "PUS",
+    "to": "CTS",
+    "observationCount": 55,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1552",
+    "from": "CTS",
+    "to": "PUS",
+    "observationCount": 55,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1601",
+    "from": "ICN",
+    "to": "FSZ",
+    "observationCount": 55,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1602",
+    "from": "FSZ",
+    "to": "ICN",
+    "observationCount": 55,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1603",
+    "from": "ICN",
+    "to": "FSZ",
+    "observationCount": 40,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1604",
+    "from": "FSZ",
+    "to": "FSZ",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C1604",
+    "from": "FSZ",
+    "to": "ICN",
+    "observationCount": 40,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1611",
+    "from": "ICN",
+    "to": "HIJ",
+    "observationCount": 42,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1612",
+    "from": "HIJ",
+    "to": "ICN",
+    "observationCount": 42,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1615",
+    "from": "ICN",
+    "to": "HIJ",
+    "observationCount": 49,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1616",
+    "from": "HIJ",
+    "to": "ICN",
+    "observationCount": 49,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1621",
+    "from": "ICN",
+    "to": "UKB",
+    "observationCount": 66,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1622",
+    "from": "UKB",
+    "to": "ICN",
+    "observationCount": 66,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1687",
+    "from": "CJU",
+    "to": "HIJ",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1688",
+    "from": "HIJ",
+    "to": "CJU",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1701",
+    "from": "ICN",
+    "to": "MYJ",
+    "observationCount": 59,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1702",
+    "from": "MYJ",
+    "to": "ICN",
+    "observationCount": 59,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1703",
+    "from": "ICN",
+    "to": "MYJ",
+    "observationCount": 52,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1704",
+    "from": "MYJ",
+    "to": "ICN",
+    "observationCount": 52,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1771",
+    "from": "ICN",
+    "to": "MYJ",
+    "observationCount": 18,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1772",
+    "from": "MYJ",
+    "to": "ICN",
+    "observationCount": 18,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1801",
+    "from": "ICN",
+    "to": "OKA",
+    "observationCount": 50,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1802",
+    "from": "OKA",
+    "to": "ICN",
+    "observationCount": 50,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1811",
+    "from": "ICN",
+    "to": "OIT",
+    "observationCount": 13,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1812",
+    "from": "OIT",
+    "to": "ICN",
+    "observationCount": 13,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C1891",
+    "from": "ICN",
+    "to": "OKA",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C1892",
+    "from": "OKA",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C2103",
+    "from": "ICN",
+    "to": "MNL",
+    "observationCount": 62,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2104",
+    "from": "MNL",
+    "to": "ICN",
+    "observationCount": 109,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2107",
+    "from": "ICN",
+    "to": "CRK",
+    "observationCount": 95,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2108",
+    "from": "CRK",
+    "to": "ICN",
+    "observationCount": 52,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2113",
+    "from": "ICN",
+    "to": "CEB",
+    "observationCount": 73,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2114",
+    "from": "CEB",
+    "to": "ICN",
+    "observationCount": 46,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2125",
+    "from": "ICN",
+    "to": "TAG",
+    "observationCount": 70,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2126",
+    "from": "TAG",
+    "to": "ICN",
+    "observationCount": 38,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2157",
+    "from": "PUS",
+    "to": "TAG",
+    "observationCount": 79,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2158",
+    "from": "TAG",
+    "to": "PUS",
+    "observationCount": 63,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2173",
+    "from": "ICN",
+    "to": "CRK",
+    "observationCount": 20,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2174",
+    "from": "CRK",
+    "to": "ICN",
+    "observationCount": 34,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2201",
+    "from": "ICN",
+    "to": "HAN",
+    "observationCount": 61,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2202",
+    "from": "HAN",
+    "to": "ICN",
+    "observationCount": 109,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2211",
+    "from": "ICN",
+    "to": "DAD",
+    "observationCount": 49,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2212",
+    "from": "DAD",
+    "to": "ICN",
+    "observationCount": 50,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2217",
+    "from": "ICN",
+    "to": "DAD",
+    "observationCount": 87,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2218",
+    "from": "DAD",
+    "to": "ICN",
+    "observationCount": 55,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2253",
+    "from": "PUS",
+    "to": "DAD",
+    "observationCount": 16,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C2254",
+    "from": "DAD",
+    "to": "PUS",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C2303",
+    "from": "ICN",
+    "to": "CXR",
+    "observationCount": 67,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2304",
+    "from": "CXR",
+    "to": "ICN",
+    "observationCount": 37,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2315",
+    "from": "ICN",
+    "to": "PQC",
+    "observationCount": 40,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2316",
+    "from": "PQC",
+    "to": "ICN",
+    "observationCount": 64,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2401",
+    "from": "ICN",
+    "to": "VTE",
+    "observationCount": 59,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2402",
+    "from": "VTE",
+    "to": "ICN",
+    "observationCount": 100,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2503",
+    "from": "ICN",
+    "to": "BKK",
+    "observationCount": 92,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2504",
+    "from": "BKK",
+    "to": "ICN",
+    "observationCount": 47,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2515",
+    "from": "ICN",
+    "to": "CNX",
+    "observationCount": 25,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2516",
+    "from": "CNX",
+    "to": "ICN",
+    "observationCount": 47,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2551",
+    "from": "PUS",
+    "to": "BKK",
+    "observationCount": 51,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2552",
+    "from": "BKK",
+    "to": "PUS",
+    "observationCount": 108,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2603",
+    "from": "ICN",
+    "to": "BKI",
+    "observationCount": 41,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2604",
+    "from": "BKI",
+    "to": "ICN",
+    "observationCount": 82,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2623",
+    "from": "ICN",
+    "to": "SIN",
+    "observationCount": 50,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2624",
+    "from": "SIN",
+    "to": "ICN",
+    "observationCount": 53,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2661",
+    "from": "PUS",
+    "to": "SIN",
+    "observationCount": 69,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C2662",
+    "from": "SIN",
+    "to": "PUS",
+    "observationCount": 150,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C3211",
+    "from": "ICN",
+    "to": "SPN",
+    "observationCount": 46,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C3212",
+    "from": "SPN",
+    "to": "ICN",
+    "observationCount": 26,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C5203",
+    "from": "ICN",
+    "to": "UBN",
+    "observationCount": 37,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C5204",
+    "from": "UBN",
+    "to": "ICN",
+    "observationCount": 37,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C5257",
+    "from": "PUS",
+    "to": "UBN",
+    "observationCount": 60,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C5258",
+    "from": "UBN",
+    "to": "PUS",
+    "observationCount": 44,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C5275",
+    "from": "ICN",
+    "to": "UBN",
+    "observationCount": 6,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C5276",
+    "from": "UBN",
+    "to": "ICN",
+    "observationCount": 6,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C5303",
+    "from": "ICN",
+    "to": "DPS",
+    "observationCount": 74,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C5304",
+    "from": "DPS",
+    "to": "ICN",
+    "observationCount": 124,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C6001",
+    "from": "ICN",
+    "to": "MFM",
+    "observationCount": 40,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C6002",
+    "from": "MFM",
+    "to": "ICN",
+    "observationCount": 39,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C6013",
+    "from": "ICN",
+    "to": "HKG",
+    "observationCount": 45,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C6014",
+    "from": "HKG",
+    "to": "ICN",
+    "observationCount": 76,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C6101",
+    "from": "ICN",
+    "to": "TPE",
+    "observationCount": 59,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C6102",
+    "from": "TPE",
+    "to": "ICN",
+    "observationCount": 59,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C6123",
+    "from": "GMP",
+    "to": "KHH",
+    "observationCount": 18,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C6124",
+    "from": "KHH",
+    "to": "GMP",
+    "observationCount": 18,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C6151",
+    "from": "PUS",
+    "to": "TPE",
+    "observationCount": 83,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C6152",
+    "from": "TPE",
+    "to": "PUS",
+    "observationCount": 83,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C6153",
+    "from": "PUS",
+    "to": "TPE",
+    "observationCount": 80,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C6154",
+    "from": "TPE",
+    "to": "PUS",
+    "observationCount": 81,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C6171",
+    "from": "ICN",
+    "to": "TPE",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C6172",
+    "from": "TPE",
+    "to": "ICN",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C6255",
+    "from": "PUS",
+    "to": "KHH",
+    "observationCount": 83,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C6256",
+    "from": "KHH",
+    "to": "PUS",
+    "observationCount": 83,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8133",
+    "from": "CJU",
+    "to": "PEK",
+    "observationCount": 41,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8134",
+    "from": "PEK",
+    "to": "CJU",
+    "observationCount": 26,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8135",
+    "from": "CJU",
+    "to": "PKX",
+    "observationCount": 29,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8136",
+    "from": "PKX",
+    "to": "CJU",
+    "observationCount": 29,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8253",
+    "from": "PUS",
+    "to": "DYG",
+    "observationCount": 23,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8254",
+    "from": "DYG",
+    "to": "PUS",
+    "observationCount": 23,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8351",
+    "from": "PUS",
+    "to": "PVG",
+    "observationCount": 51,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8352",
+    "from": "PVG",
+    "to": "PUS",
+    "observationCount": 80,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8391",
+    "from": "PUS",
+    "to": "PVG",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C8392",
+    "from": "PVG",
+    "to": "PUS",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C8401",
+    "from": "ICN",
+    "to": "TAO",
+    "observationCount": 49,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8402",
+    "from": "TAO",
+    "to": "ICN",
+    "observationCount": 49,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8405",
+    "from": "ICN",
+    "to": "TAO",
+    "observationCount": 11,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8406",
+    "from": "TAO",
+    "to": "ICN",
+    "observationCount": 17,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8406A",
+    "from": "TAO",
+    "to": "ICN",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8501",
+    "from": "ICN",
+    "to": "WEH",
+    "observationCount": 50,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8502",
+    "from": "WEH",
+    "to": "ICN",
+    "observationCount": 50,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8503",
+    "from": "ICN",
+    "to": "WEH",
+    "observationCount": 46,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8504",
+    "from": "WEH",
+    "to": "ICN",
+    "observationCount": 46,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8611",
+    "from": "ICN",
+    "to": "KWL",
+    "observationCount": 6,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8612",
+    "from": "KWL",
+    "to": "ICN",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8631",
+    "from": "TAE",
+    "to": "KWL",
+    "observationCount": 5,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8632",
+    "from": "KWL",
+    "to": "TAE",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8651",
+    "from": "PUS",
+    "to": "KWL",
+    "observationCount": 11,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8652",
+    "from": "KWL",
+    "to": "PUS",
+    "observationCount": 7,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8801",
+    "from": "ICN",
+    "to": "SJW",
+    "observationCount": 20,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8802",
+    "from": "SJW",
+    "to": "ICN",
+    "observationCount": 20,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8841",
+    "from": "TAE",
+    "to": "SJW",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8842",
+    "from": "SJW",
+    "to": "TAE",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8851",
+    "from": "PUS",
+    "to": "SJW",
+    "observationCount": 25,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8852",
+    "from": "SJW",
+    "to": "PUS",
+    "observationCount": 25,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8901",
+    "from": "ICN",
+    "to": "JMU",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8902",
+    "from": "JMU",
+    "to": "ICN",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8903",
+    "from": "ICN",
+    "to": "YNJ",
+    "observationCount": 41,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8904",
+    "from": "YNJ",
+    "to": "ICN",
+    "observationCount": 41,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8905",
+    "from": "ICN",
+    "to": "HRB",
+    "observationCount": 23,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8906",
+    "from": "HRB",
+    "to": "ICN",
+    "observationCount": 23,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "7C8971",
+    "from": "ICN",
+    "to": "YNJ",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "7C8972",
+    "from": "YNJ",
+    "to": "ICN",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "C107",
+    "from": "GMP",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "C1103",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "C1151",
+    "from": "PUS",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "C119",
+    "from": "GMP",
+    "to": "TAE",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "C119",
+    "from": "TAE",
+    "to": "GMP",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "C123A",
+    "from": "GMP",
+    "to": "GMP",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "C123A",
+    "from": "GMP",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "C123D",
+    "from": "GMP",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "C123D",
+    "from": "PUS",
+    "to": "GMP",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "C125",
+    "from": "GMP",
+    "to": "GMP",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "C1305",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "C1325",
+    "from": "GMP",
+    "to": "KIX",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "C1325",
+    "from": "KIX",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "C1405",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "C1407",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "C1501",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "C1611",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "C1701",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "C1703",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "C2173",
+    "from": "CRK",
+    "to": "ICN",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "C2173",
+    "from": "ICN",
+    "to": "CRK",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "C2303",
+    "from": "CXR",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "C2303",
+    "from": "ICN",
+    "to": "CXR",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "C2315",
+    "from": "ICN",
+    "to": "PQC",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "C2315",
+    "from": "PQC",
+    "to": "ICN",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "C5203",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "C8405",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "C8903",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "DHBX8804",
+    "from": "PUS",
+    "to": "GMP",
+    "observationCount": 15,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "DHBX8806",
+    "from": "PUS",
+    "to": "GMP",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "DHBX8807",
+    "from": "GMP",
+    "to": "PUS",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "DHBX8811",
+    "from": "GMP",
+    "to": "PUS",
+    "observationCount": 7,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "DHBX8812",
+    "from": "PUS",
+    "to": "GMP",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "DHBX8813",
+    "from": "GMP",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "DHBX8816",
+    "from": "PUS",
+    "to": "GMP",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "DHBX8817",
+    "from": "GMP",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "DHBX8818",
+    "from": "PUS",
+    "to": "GMP",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "DHBX8819",
+    "from": "GMP",
+    "to": "PUS",
+    "observationCount": 11,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "DHBX8821",
+    "from": "GMP",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "DHBX8822",
+    "from": "PUS",
+    "to": "GMP",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "DHKE1830",
+    "from": "PUS",
+    "to": "GMP",
+    "observationCount": 10,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "DHVAN308F",
+    "from": "TAE",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "DHVAN712",
+    "from": "CJJ",
+    "to": "GMP",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "DHVAN715",
+    "from": "GMP",
+    "to": "CJJ",
+    "observationCount": 12,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "DHVAN752",
+    "from": "CJJ",
+    "to": "GMP",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "DHVAN832",
+    "from": "CJJ",
+    "to": "GMP",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "DHVAN902",
+    "from": "PUS",
+    "to": "TAE",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F109A",
+    "from": "GMP",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F109A",
+    "from": "PUS",
+    "to": "PUS",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F1103",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F1151",
+    "from": "PUS",
+    "to": "PUS",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F1175",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F1305B",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F1351",
+    "from": "PUS",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-07"
+  },
+  {
+    "flightNumber": "F1353",
+    "from": "PUS",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F1353A",
+    "from": "PUS",
+    "to": "PUS",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F1395",
+    "from": "ICN",
+    "to": "KIX",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F1395",
+    "from": "KIX",
+    "to": "GMP",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F1407",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F1451",
+    "from": "PUS",
+    "to": "PUS",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F1551",
+    "from": "PUS",
+    "to": "PUS",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F1611",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F1701",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F2103",
+    "from": "ICN",
+    "to": "MNL",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F2103",
+    "from": "MNL",
+    "to": "ICN",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F2157",
+    "from": "PUS",
+    "to": "TAG",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F2157",
+    "from": "TAG",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F2201",
+    "from": "HAN",
+    "to": "ICN",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F2201",
+    "from": "ICN",
+    "to": "HAN",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F2315",
+    "from": "ICN",
+    "to": "PQC",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F2315",
+    "from": "PQC",
+    "to": "ICN",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F2401",
+    "from": "ICN",
+    "to": "VTE",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F2401",
+    "from": "VTE",
+    "to": "ICN",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F2503",
+    "from": "BKK",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F2503",
+    "from": "ICN",
+    "to": "BKK",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F2551",
+    "from": "BKK",
+    "to": "PUS",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F2551",
+    "from": "PUS",
+    "to": "BKK",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F2661F",
+    "from": "PUS",
+    "to": "SIN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F2661F",
+    "from": "SIN",
+    "to": "ICN",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F501",
+    "from": "PUS",
+    "to": "GMP",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F507",
+    "from": "PUS",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F5203",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F5257",
+    "from": "PUS",
+    "to": "UBN",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F5257",
+    "from": "UBN",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F5257B",
+    "from": "PUS",
+    "to": "UBN",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F5257B",
+    "from": "UBN",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F5303",
+    "from": "DPS",
+    "to": "ICN",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F5303",
+    "from": "ICN",
+    "to": "DPS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F6123",
+    "from": "GMP",
+    "to": "GMP",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F6151",
+    "from": "PUS",
+    "to": "PUS",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F6153",
+    "from": "PUS",
+    "to": "PUS",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F6255",
+    "from": "PUS",
+    "to": "PUS",
+    "observationCount": 5,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F8135",
+    "from": "CJU",
+    "to": "CJU",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F8135",
+    "from": "CJU",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F8253",
+    "from": "PUS",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F8351",
+    "from": "PUS",
+    "to": "PUS",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "F8401",
+    "from": "ICN",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "F8851",
+    "from": "PUS",
+    "to": "PUS",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0135",
+    "from": "ICN",
+    "to": "ALA",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE0136",
+    "from": "ALA",
+    "to": "ICN",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0201",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 10,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0202",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 12,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0204",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 13,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0205",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 10,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0206",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0207",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0208",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 7,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0209",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 12,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0210",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 12,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0211",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0212",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0213",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0214",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 12,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0215",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0216",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0217",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 10,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0218",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0219",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0220",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 10,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0221",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 12,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0222",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 12,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0223",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 13,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0224",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 13,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0225",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0226",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0227",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0228",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0229",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0230",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 10,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0231",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0232",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0232",
+    "from": "CJU",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE0233",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 14,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0235",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0261",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0262",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0271",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 11,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0272",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 11,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0273",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0274",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0275",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0276",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0277",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 11,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0278",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0281",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 12,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0282",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 12,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0283",
+    "from": "GMP",
+    "to": "CJU",
+    "observationCount": 11,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0284",
+    "from": "CJU",
+    "to": "GMP",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0291",
+    "from": "GMP",
+    "to": "PUS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0292",
+    "from": "PUS",
+    "to": "GMP",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0307F",
+    "from": "TAE",
+    "to": "PUS",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0308F",
+    "from": "PUS",
+    "to": "TAE",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0351",
+    "from": "TAE",
+    "to": "DYG",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0352",
+    "from": "DYG",
+    "to": "TAE",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0517",
+    "from": "ICN",
+    "to": "CNX",
+    "observationCount": 13,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0518",
+    "from": "CNX",
+    "to": "ICN",
+    "observationCount": 18,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0535",
+    "from": "ICN",
+    "to": "MDC",
+    "observationCount": 15,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0536",
+    "from": "MDC",
+    "to": "ICN",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0561",
+    "from": "ICN",
+    "to": "CXR",
+    "observationCount": 7,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0562",
+    "from": "CXR",
+    "to": "ICN",
+    "observationCount": 7,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0581",
+    "from": "ICN",
+    "to": "PQC",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0582",
+    "from": "PQC",
+    "to": "ICN",
+    "observationCount": 17,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0593",
+    "from": "ICN",
+    "to": "DAD",
+    "observationCount": 17,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0593A",
+    "from": "ICN",
+    "to": "DAD",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE0594",
+    "from": "DAD",
+    "to": "ICN",
+    "observationCount": 15,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0601",
+    "from": "ICN",
+    "to": "NRT",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0602",
+    "from": "NRT",
+    "to": "ICN",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0603",
+    "from": "ICN",
+    "to": "NRT",
+    "observationCount": 11,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0604",
+    "from": "NRT",
+    "to": "ICN",
+    "observationCount": 11,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0605",
+    "from": "ICN",
+    "to": "NRT",
+    "observationCount": 12,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0606",
+    "from": "NRT",
+    "to": "ICN",
+    "observationCount": 12,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0607",
+    "from": "ICN",
+    "to": "NRT",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0608",
+    "from": "NRT",
+    "to": "ICN",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0609",
+    "from": "ICN",
+    "to": "NRT",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0610",
+    "from": "NRT",
+    "to": "ICN",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0611",
+    "from": "ICN",
+    "to": "KIX",
+    "observationCount": 11,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0612",
+    "from": "KIX",
+    "to": "ICN",
+    "observationCount": 11,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0613",
+    "from": "ICN",
+    "to": "KIX",
+    "observationCount": 6,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0614",
+    "from": "KIX",
+    "to": "ICN",
+    "observationCount": 6,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0623",
+    "from": "ICN",
+    "to": "CTS",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE0624",
+    "from": "CTS",
+    "to": "ICN",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE0625",
+    "from": "ICN",
+    "to": "CTS",
+    "observationCount": 10,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0626",
+    "from": "CTS",
+    "to": "ICN",
+    "observationCount": 10,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0627",
+    "from": "ICN",
+    "to": "CTS",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0628",
+    "from": "CTS",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0631",
+    "from": "ICN",
+    "to": "OKA",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0632",
+    "from": "OKA",
+    "to": "ICN",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0633",
+    "from": "ICN",
+    "to": "OKA",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0634",
+    "from": "OKA",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0643",
+    "from": "ICN",
+    "to": "FUK",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0644",
+    "from": "FUK",
+    "to": "ICN",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0645",
+    "from": "ICN",
+    "to": "FUK",
+    "observationCount": 6,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0646",
+    "from": "FUK",
+    "to": "ICN",
+    "observationCount": 6,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0647",
+    "from": "ICN",
+    "to": "FUK",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0648",
+    "from": "FUK",
+    "to": "ICN",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0649",
+    "from": "ICN",
+    "to": "FUK",
+    "observationCount": 11,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0650",
+    "from": "FUK",
+    "to": "ICN",
+    "observationCount": 11,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0671",
+    "from": "ICN",
+    "to": "TKS",
+    "observationCount": 6,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0672",
+    "from": "TKS",
+    "to": "ICN",
+    "observationCount": 6,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0691",
+    "from": "CJU",
+    "to": "PVG",
+    "observationCount": 13,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0692",
+    "from": "PVG",
+    "to": "CJU",
+    "observationCount": 13,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0711",
+    "from": "CJJ",
+    "to": "CJU",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0712",
+    "from": "CJU",
+    "to": "CJJ",
+    "observationCount": 10,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0715",
+    "from": "CJJ",
+    "to": "CJU",
+    "observationCount": 12,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0716",
+    "from": "CJU",
+    "to": "CJJ",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0751",
+    "from": "CJJ",
+    "to": "DYG",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0752",
+    "from": "DYG",
+    "to": "CJJ",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0781",
+    "from": "CJJ",
+    "to": "TPE",
+    "observationCount": 10,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0782",
+    "from": "TPE",
+    "to": "CJJ",
+    "observationCount": 10,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0809",
+    "from": "ICN",
+    "to": "HET",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE0810",
+    "from": "HET",
+    "to": "ICN",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE0817",
+    "from": "ICN",
+    "to": "YNT",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0818",
+    "from": "YNT",
+    "to": "ICN",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0819",
+    "from": "ICN",
+    "to": "YNT",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0820",
+    "from": "YNT",
+    "to": "ICN",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0821",
+    "from": "CJJ",
+    "to": "PVG",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0822",
+    "from": "PVG",
+    "to": "CJJ",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0831",
+    "from": "CJJ",
+    "to": "YNJ",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE0832",
+    "from": "YNJ",
+    "to": "CJJ",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE0853",
+    "from": "ICN",
+    "to": "CGO",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0854",
+    "from": "CGO",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0861",
+    "from": "ICN",
+    "to": "HKG",
+    "observationCount": 5,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0862",
+    "from": "HKG",
+    "to": "ICN",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0871",
+    "from": "ICN",
+    "to": "PVG",
+    "observationCount": 18,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0872",
+    "from": "PVG",
+    "to": "ICN",
+    "observationCount": 18,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0881",
+    "from": "ICN",
+    "to": "TPE",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE0882",
+    "from": "TPE",
+    "to": "ICN",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE0885",
+    "from": "CJU",
+    "to": "TPE",
+    "observationCount": 23,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0886",
+    "from": "TPE",
+    "to": "CJU",
+    "observationCount": 23,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0887",
+    "from": "GMP",
+    "to": "TSA",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0888",
+    "from": "TSA",
+    "to": "GMP",
+    "observationCount": 4,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0901",
+    "from": "PUS",
+    "to": "CJU",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0902",
+    "from": "CJU",
+    "to": "PUS",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0913",
+    "from": "PUS",
+    "to": "KIX",
+    "observationCount": 6,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0913A",
+    "from": "PUS",
+    "to": "KIX",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE0914",
+    "from": "KIX",
+    "to": "PUS",
+    "observationCount": 7,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0915",
+    "from": "PUS",
+    "to": "KIX",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0916",
+    "from": "KIX",
+    "to": "PUS",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0917",
+    "from": "PUS",
+    "to": "CNX",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0918",
+    "from": "CNX",
+    "to": "PUS",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0935",
+    "from": "PUS",
+    "to": "ALA",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0936",
+    "from": "ALA",
+    "to": "PUS",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE0941",
+    "from": "PUS",
+    "to": "FUK",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0942",
+    "from": "FUK",
+    "to": "PUS",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0943",
+    "from": "PUS",
+    "to": "FUK",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0944",
+    "from": "FUK",
+    "to": "PUS",
+    "observationCount": 9,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0945",
+    "from": "PUS",
+    "to": "FUK",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0946",
+    "from": "FUK",
+    "to": "PUS",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0951",
+    "from": "PUS",
+    "to": "CTS",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0952",
+    "from": "CTS",
+    "to": "PUS",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0961F",
+    "from": "PUS",
+    "to": "ICN",
+    "observationCount": 1,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE0963",
+    "from": "PUS",
+    "to": "OKA",
+    "observationCount": 6,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0964",
+    "from": "OKA",
+    "to": "PUS",
+    "observationCount": 6,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0967",
+    "from": "PUS",
+    "to": "KMJ",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0968",
+    "from": "KMJ",
+    "to": "PUS",
+    "observationCount": 8,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0981",
+    "from": "PUS",
+    "to": "PQC",
+    "observationCount": 6,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0982",
+    "from": "PQC",
+    "to": "PUS",
+    "observationCount": 15,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0983",
+    "from": "PUS",
+    "to": "TPE",
+    "observationCount": 14,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0984",
+    "from": "TPE",
+    "to": "PUS",
+    "observationCount": 14,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0985",
+    "from": "PUS",
+    "to": "YNJ",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0986",
+    "from": "YNJ",
+    "to": "PUS",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0987",
+    "from": "PUS",
+    "to": "TPE",
+    "observationCount": 17,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0988",
+    "from": "TPE",
+    "to": "PUS",
+    "observationCount": 17,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0989",
+    "from": "PUS",
+    "to": "TPE",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE0990",
+    "from": "TPE",
+    "to": "PUS",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE8261",
+    "from": "ICN",
+    "to": "DAT",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE8262",
+    "from": "DAT",
+    "to": "ICN",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE8531",
+    "from": "ICN",
+    "to": "NTG",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE8532",
+    "from": "NTG",
+    "to": "ICN",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE8571",
+    "from": "ICN",
+    "to": "NGB",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE8572",
+    "from": "NGB",
+    "to": "ICN",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-08"
+  },
+  {
+    "flightNumber": "ZE8813",
+    "from": "ICN",
+    "to": "TPE",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE8814",
+    "from": "TPE",
+    "to": "ICN",
+    "observationCount": 3,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE9831",
+    "from": "PUS",
+    "to": "TPE",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  },
+  {
+    "flightNumber": "ZE9832",
+    "from": "TPE",
+    "to": "PUS",
+    "observationCount": 2,
+    "lastSeenMonth": "2026-09"
+  }
+]

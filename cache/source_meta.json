@@ -1,13 +1,13 @@
 {
   "routes.csv": {
     "url": "https://vrs-standing-data.adsb.lol/routes.csv",
-    "etag": "W/\"6a852a0d-1204d01\"",
-    "lastModified": "Wed, 19 Aug 2026 03:59:09 GMT"
+    "etag": "W/\"6a911b78-120a39b\"",
+    "lastModified": "Fri, 28 Aug 2026 05:24:08 GMT"
   },
   "airports.csv": {
     "url": "https://vrs-standing-data.adsb.lol/airports.csv",
-    "etag": "W/\"6a8529de-261c1f\"",
-    "lastModified": "Wed, 19 Aug 2026 03:58:22 GMT"
+    "etag": "W/\"6a911b49-261c1f\"",
+    "lastModified": "Fri, 28 Aug 2026 05:23:21 GMT"
   },
   "airlines.csv": {
     "url": "https://raw.githubusercontent.com/vradarserver/standing-data/main/airlines/schema-01/airlines.csv",
