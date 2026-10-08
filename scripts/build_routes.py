@@ -4,6 +4,33 @@ from collections import defaultdict
 
 SCHEMA = 2
 
+# Historical IATA aliases in standing data must not override current roster carriers.
+ROSTER_CARRIERS = {
+    "7C": ("JJA", "7C", "Jeju Air"),
+    "ZE": ("ESR", "ZE", "Eastar Jet"),
+    "TW": ("TWB", "TW", "T'Way Air"),
+    "KE": ("KAL", "KE", "Korean Air"),
+    "OZ": ("AAR", "OZ", "Asiana Airlines"),
+    "LJ": ("JNA", "LJ", "Jin Air"),
+    "BX": ("ABL", "BX", "Air Busan"),
+    "RS": ("ASV", "RS", "Air Seoul"),
+    "RF": ("EOK", "RF", "Aero K"),
+    "YP": ("APZ", "YP", "Air Premia"),
+    "KJ": ("AIH", "KJ", "Air Incheon"),
+}
+
+def parse_roster_flight(value):
+    aliases = {**ROSTER_CARRIERS, **{row[0]: row for row in ROSTER_CARRIERS.values()}}
+    flight = re.sub(r"\s+", "", (value or "").upper())
+    if flight.startswith("DH"):
+        flight = flight[2:]
+    for prefix in sorted(aliases, key=len, reverse=True):
+        if not flight.startswith(prefix): continue
+        match = re.fullmatch(r"([0-9]{1,4})([A-Z])?", flight[len(prefix):])
+        if match and int(match[1]) > 0:
+            return aliases[prefix], str(int(match[1]))
+    return None
+
 def clean(value):
     return re.sub(r"[^A-Z0-9]", "", (value or "").upper())
 
@@ -26,6 +53,9 @@ def load_airlines(path):
             # The standing data contains a few reused historical IATA codes.
             # Keep the first active mapping instead of letting a later alias replace it.
             result.setdefault(iata, (icao, iata, name))
+    for iata, carrier in ROSTER_CARRIERS.items():
+        result[iata] = carrier
+        result[carrier[0]] = carrier
     return result
 
 def load_airports(path):
@@ -45,6 +75,7 @@ def parse_public(path, airlines, airports):
         route = first(row, "AirportCodes", "Route")
         points = [clean(p) for p in re.split(r"[- /,]+", route) if clean(p)]
         if len(points) < 2 or not number.isdigit(): continue
+        number = str(int(number))
         airline_icao, airline_iata, airline_name = airlines.get(carrier, (carrier if len(carrier) == 3 else "", carrier if len(carrier) == 2 else "", carrier))
         callsign_icao = f"{airline_icao}{number}" if airline_icao else callsign
         route_icao = f"{points[0]}-{points[-1]}"
@@ -54,12 +85,11 @@ def parse_public(path, airlines, airports):
 def parse_users(path, airlines):
     if not path.exists(): return
     for row in json.loads(path.read_text(encoding="utf-8")):
-        flight = clean(row.get("flightNumber")); number = "".join(re.findall(r"\d+", flight))
-        prefix = flight[:-len(number)] if number else ""
-        airline_icao, airline_iata, airline_name = airlines.get(prefix, (prefix if len(prefix) == 3 else "", prefix if len(prefix) == 2 else "", prefix))
-        if not number or not airline_icao: continue
+        parsed = parse_roster_flight(row.get("flightNumber"))
+        if parsed is None: continue
+        (airline_icao, airline_iata, airline_name), number = parsed
         departure, arrival = clean(row.get("from")), clean(row.get("to"))
-        if not departure or not arrival: continue
+        if not re.fullmatch(r"[A-Z]{3,4}", departure) or not re.fullmatch(r"[A-Z]{3,4}", arrival) or departure == arrival: continue
         route = f"{departure}-{arrival}"
         yield (f"{airline_icao}{number}", airline_icao, airline_iata, airline_name, number, int(number), route, route, "user_roster", 100, int(row.get("observationCount", 1)), row.get("lastSeenMonth", ""))
 
@@ -75,7 +105,9 @@ def main():
     airlines, airports = load_airlines(args.airlines), load_airports(args.airports)
     merged = {}
     for record in list(parse_public(args.routes, airlines, airports)) + list(parse_users(args.users, airlines) or []):
-        key = (record[0], record[7], record[8]); previous = merged.get(key)
+        key = (record[0], record[6]); previous = merged.get(key)
+        if previous and record[8] == previous[8] == "user_roster":
+            record = (*record[:10], previous[10] + record[10], max(previous[11], record[11]))
         if not previous or record[9:] > previous[9:]: merged[key] = record
     records = sorted(merged.values())
     normalized = "\n".join("|".join(map(str, row)) for row in records).encode()
