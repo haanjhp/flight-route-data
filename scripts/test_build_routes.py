@@ -6,6 +6,17 @@ from build_routes import load_airlines, parse_roster_flight, parse_users
 
 
 class RouteTests(unittest.TestCase):
+    def test_trinity_rename_and_future_source_name(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = pathlib.Path(directory) / "airlines.csv"
+            path.write_text("ICAO,IATA,Name\nTWB,TW,T'Way Air\n")
+            self.assertEqual(load_airlines(path)["TW"], ("TWB", "TW", "Trinity Airways"))
+            path.write_text("ICAO,IATA,Name\nTWB,TW,Trinity Airways International\n")
+            airlines = load_airlines(path)
+            self.assertEqual(airlines["TW"][2], "Trinity Airways International")
+            user_path = pathlib.Path(directory) / "users.json"
+            user_path.write_text(json.dumps([{"flightNumber":"TW101", "from":"ICN", "to":"NRT"}]))
+            self.assertEqual(list(parse_users(user_path, airlines))[0][3], "Trinity Airways International")
     def test_current_carriers_override_historical_aliases(self):
         with tempfile.TemporaryDirectory() as directory:
             path = pathlib.Path(directory) / "airlines.csv"

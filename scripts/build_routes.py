@@ -8,7 +8,7 @@ SCHEMA = 2
 ROSTER_CARRIERS = {
     "7C": ("JJA", "7C", "Jeju Air"),
     "ZE": ("ESR", "ZE", "Eastar Jet"),
-    "TW": ("TWB", "TW", "T'Way Air"),
+    "TW": ("TWB", "TW", "Trinity Airways"),
     "KE": ("KAL", "KE", "Korean Air"),
     "OZ": ("AAR", "OZ", "Asiana Airlines"),
     "LJ": ("JNA", "LJ", "Jin Air"),
@@ -54,6 +54,13 @@ def load_airlines(path):
             # Keep the first active mapping instead of letting a later alias replace it.
             result.setdefault(iata, (icao, iata, name))
     for iata, carrier in ROSTER_CARRIERS.items():
+        current = result.get(carrier[0])
+        if current and current[2]:
+            old_tway_name = re.sub(r"[^a-z]", "", current[2].lower()) in {"twayair", "twayairlines", "tway"}
+            # Match by ICAO, not reused historical IATA aliases. Keep the rename
+            # override until standing data catches up, then follow future names.
+            if carrier[0] != "TWB" or not old_tway_name:
+                carrier = (carrier[0], iata, current[2])
         result[iata] = carrier
         result[carrier[0]] = carrier
     return result
@@ -88,6 +95,7 @@ def parse_users(path, airlines):
         parsed = parse_roster_flight(row.get("flightNumber"))
         if parsed is None: continue
         (airline_icao, airline_iata, airline_name), number = parsed
+        airline_name = airlines.get(airline_icao, (airline_icao, airline_iata, airline_name))[2]
         departure, arrival = clean(row.get("from")), clean(row.get("to"))
         if not re.fullmatch(r"[A-Z]{3,4}", departure) or not re.fullmatch(r"[A-Z]{3,4}", arrival) or departure == arrival: continue
         route = f"{departure}-{arrival}"
